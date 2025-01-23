@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "FreediuRedict",
+    "version": "1.0",
+    "description": "FREE",
+    "permissions": ["tabs"],
+    "host_permissions": ["https://medium.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Redirect"
+    }
+  }
+  
